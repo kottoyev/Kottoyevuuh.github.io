@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        /* Styles généraux */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* Styles spécifiques */
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .main-image {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+        }
+        .column {
+            float: left;
+            width: 50%;
+        }
+        .image-container {
+            margin-bottom: 20px;
+            overflow: hidden; /* Permet de contenir les éléments flottants */
+        }
+        .image {
+            display: block;
+            width: 100%;
+            margin-bottom: 20px; /* Ajoute un peu d'espace en bas */
+        }
+        .image img {
+            width: 100%;
+            display: block;
+            height: 200px; /* Taille fixe pour toutes les images */
+            object-fit: cover; /* Assure que l'image remplit complètement le conteneur tout en conservant ses proportions */
+        }
+        .text {
+            text-align: center;
+        }
+        .link {
+            display: block;
+            text-align: center;
+        }
+        .back-btn {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .back-btn a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .back-btn a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="back-btn">
+            <a href="index.html">Retour à l'accueil</a>
+            <a href="stage1.html">stage 1</a>
+        </div>
+        <h1>Veille technologique</h1>
+        <img class="main-image" src="assets\images\projets\alerte1.jpg" alt="Image principale">
+        <p class="text">Dans le monde en constante évolution de la technologie, les alertes de veille sont des outils essentiels pour rester à la pointe des développements en intelligence artificielle (IA). Chaque notification est une porte ouverte vers de nouvelles découvertes, des avancées révolutionnaires et des idées novatrices. En un instant, elles nous plongent dans un océan d'informations, nous guidant à travers les dernières percées en IA, nous invitant à explorer les frontières toujours plus lointaines de ce domaine fascinant. Chaque alerte est une invitation à la curiosité, une incitation à rester connecté à l'avenir.</p>
+        
+        <div class="image-container">
+            <div class="column">
+                <div class="image">
+                    <h1 >mars 2023 </h1>
+                    <img src="assets\images\projets\chatgpt.jpg" alt="Image 1">
+                    
+                    <p class="text">ChatGPT est un modèle d'intelligence artificielle développé par OpenAI. Il est conçu pour générer du texte cohérent et contextuellement pertinent en réponse à des inputs humains. Utilisant des réseaux de neurones de grande envergure, ChatGPT est employé dans diverses applications telles que l'assistance virtuelle, la génération de contenu textuel, la traduction automatique, etc.</p>
+                    <div class="link">
+                        <a href="https://www.numerama.com/sciences/1200230-cest-quoi-chatgpt-on-a-laisse-chatgpt-repondre-a-la-question.html">article Chat gpt</a>
+                    </div>
+                </div>
+                <div class="image">
+                    <h1 >mai 2023 </h1>
+                    <img src="assets\images\projets\robot.jpg" alt="Image 3">
+                    <p class="text">Les robots IA sont des machines dotées de capacités cognitives et de traitement des données, capables d'effectuer des tâches et de prendre des décisions de manière autonome. Ils intègrent des algorithmes d'intelligence artificielle qui leur permettent d'apprendre et de s'adapter à leur environnement. Ces robots sont utilisés dans divers domaines, tels que la fabrication, la logistique, la santé, ou encore l'exploration spatiale, pour automatiser des processus, accroître l'efficacité et la précision des opérations, et même interagir avec les humains de manière plus naturelle.</p>
+                    <div class="link">
+                        <a href="https://www.lesechos.fr/tech-medias/intelligence-artificielle/le-gratin-de-lintelligence-artificielle-investit-dans-les-robots-boostes-a-lia-2079712"> article robot ia</a>
+                    </div>
+                </div>
+                <div class="image">
+                    <h1 >septembre 2023 </h1>
+                    <img src="assets\images\projets\jeux.jpg" alt="Image 5">
+                    <p class="text">L'intelligence artificielle dans les jeux vidéo est un domaine fascinant où les algorithmes et les modèles d'IA sont utilisés pour créer des personnages non-joueurs (PNJ) réactifs et réalistes, améliorer l'expérience de jeu et rendre les mondes virtuels plus dynamiques. Ces systèmes d'IA permettent aux PNJ de prendre des décisions autonomes, d'adapter leur comportement en fonction des actions du joueur, et de simuler une intelligence et une personnalité propres. Grâce à l'IA, les jeux vidéo offrent des expériences plus immersives, défient les joueurs avec des adversaires plus intelligents, et ouvrent de nouvelles possibilités en matière de narration et de gameplay.</p>
+                    <div class="link">
+                        <a href="https://www.lebigdata.fr/ia-bouleverser-jeux-videos">article jeux vidéo</a>
+                    </div>
+                </div>
+                <div class="image">
+                    <h1 >avril 2024 </h1>
+                    <img src="assets\images\projets\agri.jpg" alt="Image 7">
+                    <p class="text">L'intelligence artificielle (IA) transforme l'agriculture en permettant des pratiques plus efficaces, durables et précises. En utilisant des techniques telles que l'apprentissage automatique et l'analyse des données, les agriculteurs peuvent optimiser la gestion des cultures, la planification des récoltes et la gestion des ressources. Par exemple, les drones équipés de capteurs et d'algorithmes d'IA peuvent surveiller les champs pour détecter les maladies des plantes ou les carences en nutriments, permettant ainsi une intervention précoce et ciblée. De même, les systèmes d'irrigation pilotés par IA peuvent ajuster automatiquement les niveaux d'eau en fonction des besoins des cultures, réduisant ainsi le gaspillage et améliorant les rendements. Grâce à l'IA, l'agriculture devient plus efficiente, durable et résiliente aux défis environnementaux et climatiques.</p>
+                    <div class="link">
+                        <a href="https://www.intelligence-artificielle-school.com/alternance-et-entreprises/secteur-d-activite/comment-lintelligence-artificielle-transforme-lagriculture/#:~:text=L'intelligence%20artificielle%20dans%20l,des%20syst%C3%A8mes%20de%20pr%C3%A9vision%20saisonni%C3%A8re.">article IA dans l'agriculture</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="image">
+                    <h1 >avril 2023 </h1>
+                    <img src="assets\images\projets\bing.jpg" alt="Image 2">
+                    <p class="text">BBing intègre désormais ChatGPT, un modèle d'intelligence artificielle développé par OpenAI, pour une interaction plus naturelle. Cette fusion permet aux utilisateurs de poser des questions et d'interagir avec Bing de manière conversationnelle, offrant des réponses plus pertinentes et contextuelles.</p>
+                    <div class="link">
+                       <br><br>
+                        <a href="https://www.lemondeinformatique.fr/actualites/lire-avec-phi-3-mini-microsoft-frappe-un-grand-coup-dans-les-slm-93583.html">article Bing</a>
+                    </div>
+                </div>
+                <div class="image">
+                    <h1 >juin 2023 </h1>
+                    <img src="assets\images\projets\vehicule.jpg" alt="Image 4">
+                    <p class="text">Les voitures autonomes, fusion de technologie et de mobilité, reposent sur l'intelligence artificielle pour naviguer sans conducteur humain. Ces véhicules intègrent des capteurs et des algorithmes sophistiqués qui leur permettent de percevoir leur environnement, de prendre des décisions en temps réel et de se déplacer en toute sécurité sur les routes.</p>
+                    <div class="link">
+                        <br><br><br><br>
+                        <a href="https://www.lemonde.fr/sciences/article/2023/01/26/voiture-autonome-les-defis-en-matiere-d-intelligence-artificielle-sont-immenses_6159426_1650684.html">article Voiture autonome</a>
+                    </div>
+                </div>
+                <div class="image">
+                    <h1 >janvier 2024 </h1>
+                    <img src="assets\images\projets\medecine.jpg" alt="Image 6">
+                    <p class="text">L'intelligence artificielle révolutionne la médecine en permettant des diagnostics plus précis, des traitements personnalisés et une gestion efficace des maladies. En analysant de vastes ensembles de données médicales, l'IA aide les médecins à prendre des décisions éclairées plus rapidement, améliorant ainsi les résultats cliniques pour les patients. Cette capacité d'analyse approfondie permet également de découvrir des patterns et des corrélations subtiles dans les données médicales, ouvrant ainsi de nouvelles opportunités pour la recherche médicale et l'innovation thérapeutique.</p>
+                    <div class="link">
+                        <br><br>
+                        <a href="https://www.inserm.fr/dossier/intelligence-artificielle-et-sante/">article medecine</a>
+                    </div>
+                </div>
+                <div class="image">
+                    <h1 >mars 2024 </h1>
+                    <img src="assets\images\projets\face.jpg" alt="Image 8">
+                    <p class="text">La reconnaissance faciale est une technologie d'intelligence artificielle permettant d'identifier ou de vérifier l'identité d'une personne à partir de ses caractéristiques faciales. En utilisant des algorithmes sophistiqués, cette technologie analyse les caractéristiques du visage, telles que la forme des yeux, du nez et de la bouche, ainsi que les distances entre ces caractéristiques, pour créer un modèle unique de l'individu. Cette technologie est largement utilisée dans divers domaines, tels que la sécurité, la gestion des identités, les services bancaires, et même le divertissement. Cependant, elle soulève également des préoccupations concernant la vie privée et les risques potentiels de surveillance de masse.</p>
+                    <div class="link">
+                        <br><br><br>
+                        <a href="https://aws.amazon.com/fr/rekognition/the-facts-on-facial-recognition-with-artificial-intelligence/">Reconnaissance faciale</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

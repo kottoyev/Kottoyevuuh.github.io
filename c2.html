@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Bar à Thème</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        .button-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-right: 10px;
+        }
+        .button:hover {
+            background-color: #555;
+        }
+        .back-to-top {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .back-to-top:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body> 
+    <header>
+        <h1>ENREGISTREMENT DE DONNÉES MÉDICALES ET DE PRISE DE RENDEZ-VOUS</h1>
+        <div class="button-container">
+            <a href="index.html" class="button">Retour à l'accueil</a>
+            <a href="an.html" class="button">projet suivant</a>
+        </div>
+    </header>
+    <div class="container">
+        <p>Application permettant la gestion des rendez-vous médicaux et l'enregistrement des données médicales des patients. Cette application offre une interface intuitive pour les médecins et le personnel administratif afin de planifier les rendez-vous, d'accéder aux antécédents médicaux des patients, et de saisir de nouvelles données médicales lors des consultations.</p>
+        <img src="assets\images\projets\c2.jpg" alt="Bar à thème">
+        
+        <div class="button-container">
+            <a href="assets\images\projets\rapportc2.pdf" class="button" download>Télécharger le rapport</a>
+            <a href="assets\images\projets\Manuel Utilisateur-kottoyev.pdf" class="button" download>Télécharger le manuel de utilisateur</a>
+        </div>
+    </div>
+    
+
+    <script>
+        document.querySelector('.back-to-top').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
